@@ -1,0 +1,29 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "wht-tag 组件"
+			}
+		},
+		{
+			"path": "pages/wht-tag-demo/wht-tag-demo",
+			"style": {
+				"navigationBarTitleText": "wht-tag 组件示例"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "wht-tag",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^wht-(.*)": "@/uni_modules/wht-tag/components/wht-$1/wht-$1.vue"
+		}
+	},
+	"uniIdRouter": {}
+}

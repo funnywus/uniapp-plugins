@@ -1,0 +1,30 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/wht-list-demo/wht-list-demo",
+			"style": {
+				"navigationBarTitleText": "wht-list 组件演示"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"easycom": {
+		"autoscan": true,
+		// 如果您是通过uni_modules形式引入uView，可以忽略此配置
+		"easycom": {
+			"^wht-(.*)": "@/uni_modules/uview-ui/components/wht-$1/u-$1.vue"
+		},
+	},
+	"uniIdRouter": {}
+}

@@ -1,0 +1,30 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/wht-list-demo/wht-list-demo",
+			"style": {
+				"navigationBarTitleText": "wht-list 组件演示"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^wht-list$": "@/uni_modules/wht-list/components/wht-list/wht-list.vue",
+			"^wht-list-item$": "@/uni_modules/wht-list/components/wht-list-item/wht-list-item.vue"
+		}
+	},
+	"uniIdRouter": {}
+}

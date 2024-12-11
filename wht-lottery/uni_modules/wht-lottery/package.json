@@ -1,0 +1,85 @@
+{
+  "id": "wht-lottery",
+  "displayName": "wht-lottery 组件 老虎机抽奖 流畅动画 营销必备",
+  "version": "1.0.0",
+  "description": "一个简单易用、动画流畅的老虎机抽奖组件，支持自定义奖品和样式，适用于营销活动、游戏抽奖等场景",
+  "keywords": [
+    "抽奖",
+    "老虎机",
+    "游戏",
+    "营销",
+    "动画"
+],
+  "repository": "https://gitee.com/funnywuss/uniapp-plugins.git wht-lottery",
+  "engines": {
+    "HBuilderX": "^3.1.0"
+  },
+"dcloudext": {
+    "sale": {
+      "regular": {
+        "price": "0.00"
+      },
+      "sourcecode": {
+        "price": "0.00"
+      }
+    },
+    "contact": {
+      "qq": ""
+    },
+    "declaration": {
+      "ads": "无",
+      "data": "无",
+      "permissions": "无"
+    },
+    "npmurl": "",
+    "type": "component-vue"
+  },
+  "uni_modules": {
+    "dependencies": [],
+    "encrypt": [],
+    "platforms": {
+      "cloud": {
+        "tcb": "y",
+        "aliyun": "y",
+        "alipay": "n"
+      },
+      "client": {
+        "Vue": {
+          "vue2": "y",
+          "vue3": "y"
+        },
+        "App": {
+            "app-vue": "y",
+            "app-nvue": "n",
+            "app-harmony": "u",
+            "app-uvue": "u"
+        },
+        "H5-mobile": {
+          "Safari": "y",
+          "Android Browser": "y",
+          "微信浏览器(Android)": "y",
+          "QQ浏览器(Android)": "y"
+        },
+        "H5-pc": {
+          "Chrome": "y",
+          "IE": "n",
+          "Edge": "y",
+          "Firefox": "y",
+          "Safari": "y"
+        },
+        "小程序": {
+          "微信": "y",
+          "阿里": "y",
+          "百度": "y",
+          "字节跳动": "y",
+          "QQ": "y",
+          "钉钉": "y"
+        },
+        "快应用": {
+          "华为": "u",
+          "联盟": "u"
+        }
+      }
+    }
+  }
+}

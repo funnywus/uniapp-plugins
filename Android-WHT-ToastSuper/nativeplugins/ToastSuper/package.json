@@ -1,0 +1,19 @@
+{
+	"name": "ToastSuper",
+	"id": "ToastSuper",
+	"version": "1.0.0",
+	"description": "原生toast",
+	"_dp_type": "nativeplugin",
+	"_dp_nativeplugin": {
+		"android": {
+			"plugins": [{
+				"type": "module",
+				"name": "ToastSuper",
+				"class": "io.dcloud.uniplugin.ToastSuper"
+
+			}],
+			"integrateType": "aar",
+			"abis": []
+		}
+	}
+}

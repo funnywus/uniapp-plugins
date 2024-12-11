@@ -1,0 +1,88 @@
+{
+  "id": "wht-race-lamp",
+  "displayName": "wht-race-lamp 跑马灯 简单易用的文字滚动效果组件",
+  "version": "1.0.0",
+  "description": "一个简单易用、功能强大的跑马灯组件，支持水平和垂直方向的文字滚动效果，可自定义左侧图标。完美支持H5、微信小程序、App。",
+  "keywords": [
+    "跑马灯",
+    "文字滚动",
+    "marquee",
+    "滚动通知",
+    "公告"
+],
+  "repository": "https://gitee.com/funnywuss/uniapp-plugins.git wht-race-lamp",
+  "engines": {
+    "HBuilderX": "^3.8.0"
+  },
+  "dcloudext": {
+    "type": "component-vue",
+    "sale": {
+      "regular": {
+        "price": "0.00"
+      },
+      "sourcecode": {
+        "price": "0.00"
+      }
+    },
+    "contact": {
+      "qq": ""
+    },
+    "declaration": {
+      "ads": "无",
+      "data": "插件不采集任何数据",
+      "permissions": "无"
+    },
+    "npmurl": ""
+  },
+  "uni_modules": {
+    "dependencies": [],
+    "encrypt": [],
+    "platforms": {
+      "cloud": {
+        "tcb": "y",
+        "aliyun": "y",
+        "alipay": "n"
+      },
+      "client": {
+        "Vue": {
+          "vue2": "y",
+          "vue3": "y"
+        },
+        "App": {
+            "app-vue": "y",
+            "app-nvue": "n",
+            "app-harmony": "u",
+            "app-uvue": "u"
+        },
+        "H5-mobile": {
+          "Safari": "y",
+          "Android Browser": "y",
+          "微信浏览器(Android)": "y",
+          "QQ浏览器(Android)": "y"
+        },
+        "H5-pc": {
+          "Chrome": "y",
+          "IE": "n",
+          "Edge": "y",
+          "Firefox": "y",
+          "Safari": "y"
+        },
+        "小程序": {
+          "微信": "y",
+          "阿里": "u",
+          "百度": "u",
+          "字节跳动": "u",
+          "QQ": "u",
+          "钉钉": "u",
+          "快手": "u",
+          "飞书": "u",
+          "京东": "u"
+        },
+        "快应用": {
+          "华为": "u",
+          "联盟": "u"
+        }
+      }
+    }
+  }
+}

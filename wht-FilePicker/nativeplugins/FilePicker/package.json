@@ -1,0 +1,19 @@
+{
+	"name": "FilePicker",
+	"id": "FilePicker",
+	"version": "1.0.0",
+	"description": "文件选择器插件",
+	"_dp_type": "nativeplugin",
+	"_dp_nativeplugin": {
+		"android": {
+			"plugins": [{
+				"type": "module",
+				"name": "FilePicker",
+				"class": "io.dcloud.uniplugin.FilePickerModule"
+
+			}],
+			"integrateType": "aar",
+			"abis": []
+		}
+	}
+}
